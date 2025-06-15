@@ -31,5 +31,5 @@ jobs:
           # typescript compile
           git config --local user.name "liteyuki-flow"
           git config --local user.email "liteyuki-flow@liteyuki.org"
-          git add dist/.*
+          git add dist/
           git commit -m "📦 update dist"
