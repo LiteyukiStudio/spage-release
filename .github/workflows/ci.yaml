@@ -23,6 +23,7 @@ jobs:
       - name: Install and build
         run: |
           npm install -g pnpm
+          pnpm install
           pnpm build
 
       - name: Push Change
