@@ -32,7 +32,7 @@ jobs:
           git config --local user.name "liteyuki-flow"
           git config --local user.email "liteyuki-flow@liteyuki.org"
           git add dist/
-          git commit -m "📦 update dist"
-          git push origin main
+          git commit -m "📦 update dist" || true
+          git push origin main || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
