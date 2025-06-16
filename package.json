@@ -7,6 +7,7 @@
 		"@actions/github": "^6.0.1",
 		"archiver": "^7.0.1",
 		"axios": "^1.9.0",
+		"field-conv": "^1.0.8",
 		"form-data": "^4.0.3"
 	},
 	"devDependencies": {
